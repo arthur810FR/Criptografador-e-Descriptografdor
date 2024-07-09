@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 70%;
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel {
+    width: 50%;
+}
+
+.right-panel {
+    width: 50%;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #004085;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-area label {
+    font-size: 1.2rem;
+    color: #00376b;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-area textarea {
+    width: 100%;
+    height: 150px;
+    border: none; /* Removi a borda */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f0f4f8; /* Mesma cor de fundo da página */
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encrypt-btn {
+    background-color: #004085;
+}
+
+#decrypt-btn {
+    background-color: #6c757d;
+}
+
+.right-panel .message {
+    text-align: center;
+}
+
+.right-panel .message img {
+    width: 200px; /* Aumentei o tamanho da imagem */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.right-panel .message p {
+    font-size: 1.5rem;
+    color: #00376b;
+    margin-bottom: 10px;
+}
+
+.right-panel .message span {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Note for lowercase letters */
+.note {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 20px;
+}
